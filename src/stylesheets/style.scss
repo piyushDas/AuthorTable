@@ -1,0 +1,31 @@
+@import '~normalize.css/normalize.css';
+@import './base';
+@import './media';
+@import './fonts';
+@import './main';
+
+// custom styles
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-middle{
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.w-30p {
+  width: 30%;
+}

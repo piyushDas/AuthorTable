@@ -1,0 +1,71 @@
+@import './variables';
+table {
+    width: 90%;
+    margin: 20px auto;
+    text-align: left;
+    border-collapse: collapse;
+    border: $border-light;
+    th, td {
+        width: 33%;
+        padding: 16px;
+        border-right: $border-light;
+    }
+
+    .table-header{
+        background: $container-bg;
+        text-transform: uppercase;
+    }
+}
+
+
+.search-bar {
+    margin: 50px auto;
+    input {
+        height: 32px;
+        width: 60%;
+        max-width: 400px;
+        padding-left: 8px;
+        border: 1px solid #36C;
+    }
+
+    button {
+        background: #36C;
+        padding: 7px 20px;
+        border: none;
+        cursor: pointer;
+        color: #fff; 
+    }
+}
+
+.pagination {
+    button {
+        background: #36C;
+        padding: 7px 20px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        margin-left: 8px;
+        &:disabled{
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    }
+}
+
+.no-data {
+    background-color: #f7f7f7;
+    color: #333;
+    font-style: italic;
+    text-align: center;
+    div {
+        padding: 20px;
+    }
+    button {
+        background: #36C;
+        padding: 7px 20px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        margin-left: 8px;
+    }
+}
